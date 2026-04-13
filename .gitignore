@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Sensitive files - NEVER upload these
+server/.env
+server/credentials.json
+server/oauth_credentials.json
+server/token.json
+
+# React build
+client/build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
